@@ -25,7 +25,7 @@ app.use(function(req, res, next) {
 });
 
 app.get('/', (req, res) => {
-    res.send('Demo For Customer Data !!')
+    res.send('Demo For Customer Data !!!')
 });
 
 app.post('/api/savecustomer', (req, res, next) => {
@@ -38,7 +38,8 @@ app.post('/api/savecustomer', (req, res, next) => {
         function(error, response, body) {
           debugger;
             //console.log(error);
-            res.send(body);
+            //res.send(body);
+            res.send(req.body);
             //console.log(error);
         });
 });
