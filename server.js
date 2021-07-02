@@ -39,7 +39,7 @@ app.post('/api/savecustomer', (req, res, next) => {
           debugger;
             //console.log(error);
             //res.send(body);
-            res.send(req.body);
+            res.send(req);
             //console.log(error);
         });
 });
