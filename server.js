@@ -23,7 +23,7 @@ app.use(function(req, res, next) {
 });
 
 app.get('/', (req, res) => {
-    res.send('Demo App!')
+    res.send('Demo App!!')
 });
 
 app.post('/api/savecustomer', (req, res, next) => {
