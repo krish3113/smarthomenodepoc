@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/61d9bce0-683a-47ab-ba47-c1ccc16e4e08/resourceGroups/Nodeappgroup/providers/Microsoft.Web/sites/smarthomenodepoc",
+    "appService.deploySubpath": "."
+}
