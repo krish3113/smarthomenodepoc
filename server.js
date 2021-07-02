@@ -23,11 +23,11 @@ app.use(function(req, res, next) {
 });
 
 app.get('/', (req, res) => {
-    res.send('Demo App trials !!')
+    res.send('Demo For Customer Data !!')
 });
 
 app.post('/api/savecustomer', (req, res, next) => {
-  console.log('Test Request');
+  //console.log('Test Request');
     request({ url: savecustomerurl,
        headers: headers,
        json: req.body,
