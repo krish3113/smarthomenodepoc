@@ -27,8 +27,7 @@ app.get('/', (req, res) => {
 });
 
 app.post('/api/savecustomer', (req, res, next) => {
-
-  //console.log(req.body);
+  console.log('Test Request');
     request({ url: savecustomerurl,
        headers: headers,
        json: req.body,
